@@ -13,7 +13,7 @@ while column < director_data.length
  total += director_data[column][:worldwide_gross]
  column += 1
 end
-return total_worldwide_gross
+return total
  
 end
 # Write a method that, given an NDS creates a new Hash
