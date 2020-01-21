@@ -27,7 +27,7 @@ def directors_totals(nds)
     directors_name = directors_database[row_index][:name]
    
      
- total_worldwide_gross = gross_for_director(directors_database[row_index][:movies])
+ total_worldwide_gross = gross_for_director(directors_database[row_index])
   result[directors_name] = total_worldwide_gross
   #binding.pry
  row_index += 1
