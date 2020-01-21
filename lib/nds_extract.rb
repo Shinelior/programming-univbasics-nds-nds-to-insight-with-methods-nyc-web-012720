@@ -31,7 +31,7 @@ def directors_totals(nds)
   result[directors_name] = total_worldwide_gross
   #binding.pry
  row_index += 1
- 
+ binding.pry
 end
   return result
   binding.pry
